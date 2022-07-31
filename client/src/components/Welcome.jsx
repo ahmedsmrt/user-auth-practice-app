@@ -21,8 +21,8 @@ const WelcomeSection = styled.section`
 
   @media screen and (max-width: 400px) {
     h1 {
-      font-size: 2rem;
-      line-height: 2.2rem;
+      font-size: 2.25rem;
+      line-height: 2.45rem;
       padding: 20px 15px;
     }
   }
