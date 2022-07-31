@@ -78,3 +78,6 @@ export default function Welcome({ handleClick }) {
     </WelcomeSection>
   );
 }
+
+
+export { WelcomeBtn }
