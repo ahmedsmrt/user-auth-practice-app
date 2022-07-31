@@ -6,8 +6,17 @@ import { WelcomeBtn } from "./Welcome";
 const LogInForm = styled.form`
      display: flex;
     flex-direction: column;
-    margin: 30px auto;
+    margin: 25px auto;
     width: 90%;
+
+
+    h2 {
+        text-align: center;
+        margin: 25px 0px;
+        font-weight: 300;
+    }
+
+
 
     input {
         border-radius: 15px;
@@ -49,6 +58,7 @@ const SignUpBtn = styled(WelcomeBtn)`
 export default function LogIn() {
   return (
     <LogInForm>
+                <h2>Welcome back!</h2>
       <label htmlFor="userName">
         User Name
       </label>

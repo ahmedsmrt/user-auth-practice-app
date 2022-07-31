@@ -45,8 +45,11 @@ const UserForm = styled.form`
 
 const SignUpBtn = styled(WelcomeBtn)`
     padding: 3px 10px;
-    margin: 30px
-
+    margin: 30px;
+    &:hover {
+        background: #BED4CD;
+        color: #222;
+    }
 `;
 
 
