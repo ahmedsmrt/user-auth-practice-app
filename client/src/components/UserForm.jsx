@@ -9,6 +9,8 @@ const UserDiv = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border-radius: 10px 10px 25px 25px;
     position: relative;
     background-color: whitesmoke;

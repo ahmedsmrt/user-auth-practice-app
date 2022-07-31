@@ -20,6 +20,10 @@ const LogInForm = styled.form`
     border: none;
     width: 100%;
     text-indent: 10px;
+    font-size: .7rem;
+    font-weight: 300;
+    opacity: .8;
+    padding: 2px 0;;
   }
 
   label {

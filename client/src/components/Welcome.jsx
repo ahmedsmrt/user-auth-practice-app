@@ -16,6 +16,15 @@ const WelcomeSection = styled.section`
     font-size: 3rem;
     margin: 0 0 2rem 0;
     text-align: center;
+    line-height: 3.2rem;
+  }
+
+  @media screen and (max-width: 400px) {
+    h1 {
+      font-size: 2rem;
+      line-height: 2.2rem;
+      padding: 20px 15px;
+    }
   }
 
   .btn-wrap {
